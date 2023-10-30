@@ -33,7 +33,8 @@ main {
 .container p {
     display: block;
     max-width: 600px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    padding-left: 30px;
     
 
 }
@@ -53,14 +54,20 @@ main {
     background-size: cover;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-left: 30px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    
 }
 
 .conteudo2 {
-    width: 600px ;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    /* width: 600px ; */
+    /* box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473); */
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.651);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.678), transparent);
     color: white;
+    margin: 0px;
+    padding: 0px;
+    
     
 }
 
@@ -78,13 +85,16 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
 .conteudo4 {
     width: 600px;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    /* box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473); */
     position: absolute;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.678), transparent);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), transparent);
     color: white;
 
 }
