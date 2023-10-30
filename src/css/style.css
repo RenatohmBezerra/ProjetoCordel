@@ -56,11 +56,28 @@ main {
     
 }
 
-.teste {
-    height: 300px;
-    background-color: blueviolet;
-    
+.parallax2 {
+    min-height: 600px;
+    width: 100%;
+    background-image: url(/src/imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.conteudo4 {
+    width: 600px;
+    /* border: 2px solid white; */
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    position: absolute;
+    top: 2340px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.678), transparent);
+    color: white;
+
+}
+
+
 
 
 
